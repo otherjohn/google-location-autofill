@@ -37,9 +37,7 @@ export default {
         },
 
         replicatorPreview() {
-            return this.value && this.value.formatted_address
-                ? this.value.formatted_address
-                : "";
+            return this.value;
         }
     },
 
