@@ -2,6 +2,7 @@
   "name": "otherjohn/google-location-autofill",
   "description": "Google Location Fieldtype",
   "type": "statamic-addon",
+  "license": "MIT",
   "autoload": {
     "psr-4": {
       "OtherJohn\\GoogleLocation\\": "src"
