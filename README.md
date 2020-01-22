@@ -42,6 +42,12 @@ The following data is saved with this fieldtype
   google_url
 ```
 
+## Reporting issues
+
+ This is my first ever community code share. I will try to fix issues, but I can't promise anything.
+ ![It's Free Software](itsfree.gif)
+
+
 
 
 Inital code taken from [olefirenko/vue-google-autocomplete](olefirenko/vue-google-autocomplete) and modified to return more data and work with Statamic.
