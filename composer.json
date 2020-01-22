@@ -1,0 +1,29 @@
+{
+  "name": "otherjohn/location",
+  "description": "Google Location Fieldtype",
+  "type": "statamic-addon",
+  "autoload": {
+    "psr-4": {
+      "OtherJohn\\GoogleLocation\\": "src"
+    }
+  },
+  "authors": [
+    {
+      "name": "John Hamman"
+    }
+  ],
+  "support": {
+    "email": "john.hamman@gmail.com"
+  },
+  "extra": {
+    "statamic": {
+      "name": "Statamic 3 Google Location Fieldtype",
+      "description": "Statamic 3 Google Location Fieldtype"
+    },
+    "laravel": {
+      "providers": [
+        "OtherJohn\\GoogleLocation\\ServiceProvider"
+      ]
+    }
+  }
+}
