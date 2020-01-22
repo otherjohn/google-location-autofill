@@ -41,3 +41,7 @@ The following data is saved with this fieldtype
   longitude
   google_url
 ```
+
+
+
+Inital code taken from [olefirenko/vue-google-autocomplete](olefirenko/vue-google-autocomplete) and modified to return more data and work with Statamic.
