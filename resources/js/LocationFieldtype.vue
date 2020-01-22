@@ -34,6 +34,12 @@ export default {
             return this.value && this.value.formatted_address
                 ? this.value.formatted_address
                 : "";
+        },
+
+        replicatorPreview() {
+            return this.value && this.value.formatted_address
+                ? this.value.formatted_address
+                : "";
         }
     },
 
