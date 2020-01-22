@@ -1,5 +1,5 @@
 {
-  "name": "otherjohn/location",
+  "name": "otherjohn/google-location-autofill",
   "description": "Google Location Fieldtype",
   "type": "statamic-addon",
   "autoload": {
