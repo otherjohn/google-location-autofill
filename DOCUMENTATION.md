@@ -1,17 +1,12 @@
 # Google Location Autofill
 
-![Statamic 3.0+](https://img.shields.io/badge/Statamic-3.0+-FF269E?style=for-the-badge&link=https://statamic.com)
-[![Total Downloads](https://img.shields.io/packagist/dt/otherjohn/google-location-autofill.svg)](https://packagist.org/packages/otherjohn/google-location-autofill) [![Downloads Month](https://img.shields.io/packagist/dm/otherjohn/google-location-autofill.svg)](https://packagist.org/otherjohn/google-location-autofill) [![PayPal donation](https://img.shields.io/badge/paypal-donate-blue.svg)](https://paypal.me/otherjohn)
-
 Google Location Autofill is a [Statamic 3](https://statamic.com/) addon that allows you to pull Google places locations 
 via autotype field and save the location information.
 
 ![Google autocomplete location](https://developers.google.com/maps/documentation/javascript/images/places-autocomplete-suggest.png)
 
 - [Installation](#installation)
-- [Data](#data)
-- [Reporting issues](#reporting-issues)
-- [Recognition](#recognition)
+- [Data Output](#data_output)
 
 ## Installation
 This Fieldtype works with **Statamic 3** only!
@@ -37,7 +32,7 @@ php please addons:discover
 php please cache:clear
 ```
 
-## Data
+## Data Output
 
 Since Google has additional charges for data that is pulled by *default*, the ability to select and choose what you want
 pulled from Google has been added to the addon. 
@@ -60,17 +55,5 @@ the field to your blueprint. A list of all fields available is in the [PlaceResu
 > ```geometry``` outputs ```latitude,longitude```. If you remove ```geometry``` you will loose these fields.
 
 
-
-
-## Reporting issues
-
- This is my first ever community code share. I will try to fix issues, but I can't promise anything. 
- So if you have an issue and I don't get to it just remember...
- 
- ![It's Free Software](itsfree.gif)
-
-
-
-## Recognition
-Initial code taken from [olefirenko/vue-google-autocomplete](https://github.com/olefirenko/vue-google-autocomplete) and modified to return more data and work with Statamic.
-& ["Added the option to specify which fields to fetch in the PlaceResult object" Pull Request](https://github.com/olefirenko/vue-google-autocomplete/pull/103)
+## License
+This fieldtype is licensed under the MIT license.

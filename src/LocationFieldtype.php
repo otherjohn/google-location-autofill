@@ -46,10 +46,6 @@ class LocationFieldtype extends Fieldtype
         ]
     ];
 
-    public function icon()
-    {
-        return 'pin';
-    }
 
 
     public function preload()
