@@ -1,6 +1,6 @@
 <?php
 
-namespace OtherJohn\GoogleLocationAutofill;
+namespace Otherjohn\GoogleLocationAutofill;
 use Statamic\Fields\Fieldtype;
 
 class LocationFieldtype extends Fieldtype
