@@ -3,6 +3,8 @@
 ![Statamic 3.0+](https://img.shields.io/badge/Statamic-3.0+-FF269E?style=for-the-badge&link=https://statamic.com)
 [![Total Downloads](https://img.shields.io/packagist/dt/otherjohn/google-location-autofill.svg)](https://packagist.org/packages/otherjohn/google-location-autofill) [![Downloads Month](https://img.shields.io/packagist/dm/otherjohn/google-location-autofill.svg)](https://packagist.org/otherjohn/google-location-autofill) [![PayPal donation](https://img.shields.io/badge/paypal-donate-blue.svg)](https://paypal.me/otherjohn)
 
+Google Location Autofill is a [Statamic 3](https://statamic.com/) addon that allows you to pull Google places locations 
+via autotype field and save the location information.
 
 - [Installation](#installation)
 - [Data](#data)
