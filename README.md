@@ -6,6 +6,8 @@
 Google Location Autofill is a [Statamic 3](https://statamic.com/) addon that allows you to pull Google places locations 
 via autotype field and save the location information.
 
+![Google autocomplete location](https://developers.google.com/maps/documentation/javascript/images/places-autocomplete-suggest.png)
+
 - [Installation](#installation)
 - [Data](#data)
 - [Reporting issues](#reporting-issues)
