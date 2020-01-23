@@ -5,7 +5,7 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "OtherJohn\\GoogleLocation\\": "src"
+      "OtherJohn\\GoogleLocationAutofill\\": "src"
     }
   },
   "authors": [
@@ -23,7 +23,7 @@
     },
     "laravel": {
       "providers": [
-        "OtherJohn\\GoogleLocation\\ServiceProvider"
+        "OtherJohn\\GoogleLocationAutofill\\ServiceProvider"
       ]
     }
   }

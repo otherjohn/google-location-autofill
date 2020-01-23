@@ -1,6 +1,6 @@
 <?php
 
-namespace OtherJohn\GoogleLocation;
+namespace OtherJohn\GoogleLocationAutofill;
 
 use Statamic\Statamic;
 use Statamic\Providers\AddonServiceProvider;

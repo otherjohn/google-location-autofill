@@ -1,6 +1,6 @@
 <?php
 
-namespace OtherJohn\GoogleLocation;
+namespace OtherJohn\GoogleLocationAutofill;
 use Statamic\Fields\Fieldtype;
 
 class LocationFieldtype extends Fieldtype
@@ -46,15 +46,6 @@ class LocationFieldtype extends Fieldtype
         ]
     ];
 
-
-
-    public function preload()
-    {
-        return [
-            'placesAppId' => env('PLACES_APP_ID', false),
-            'placesApiKey' => env('PLACES_API_KEY', false)
-        ];
-    }
 
     /**
      * The blank/default value
